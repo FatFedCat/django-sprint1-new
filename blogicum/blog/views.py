@@ -2,16 +2,16 @@ from django.shortcuts import render
 
 
 def index(request):
-    template = ''
+    template = 'blog/index.html'
     render(request, template)
 
 def post_detail(request, id):
-    template = ''
+    template = 'blog/detail.html'
     render(request, template)
 
 
 def category_posts(request, category):
-    template = ''
+    template = 'blog/category.html'
     render(request, template)
 
 posts = [
